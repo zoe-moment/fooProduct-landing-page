@@ -40,7 +40,7 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 14. My product landing page should have at least one media query.
 
-15. My product landing page should utilize CSS flexbox at least once.
+15. ~~My product landing page should utilize CSS flexbox at least once.~~
 
 ## Requirements
 
