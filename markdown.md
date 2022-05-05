@@ -34,7 +34,7 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 11. Within the form, there is a submit input with a corresponding id="submit".
 
-12. When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+12. When I click the #submit element, the email is submitted to a static page (use this mock URL: <https://www.freecodecamp.com/email-submit>).
 
 13. The navbar should always be at the top of the viewport.
 
