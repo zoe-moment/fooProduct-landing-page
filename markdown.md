@@ -24,17 +24,17 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 6. I can watch an embedded product video with id="video".
 
-7. My landing page has a form element with a corresponding id="form".
+7. ~~My landing page has a form element with a corresponding id="form".~~
 
-8. Within the form, there is an input field with id="email" where I can enter an email address.
+8. ~~Within the form, there is an input field with id="email" where I can enter an email address.~~
 
-9. The #email input field should have placeholder text to let the user know what the field is for.
+9. ~~The #email input field should have placeholder text to let the user know what the field is for.~~
 
-10. The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+10. ~~The #email input field uses HTML5 validation to confirm that the entered text is an email address.~~
 
-11. Within the form, there is a submit input with a corresponding id="submit".
+11. ~~Within the form, there is a submit input with a corresponding id="submit".~~
 
-12. When I click the #submit element, the email is submitted to a static page (use this mock URL: <https://www.freecodecamp.com/email-submit>).
+12. ~~When I click the #submit element, the email is submitted to a static page (use this mock URL: <https://www.freecodecamp.com/email-submit>).~~
 
 13. The navbar should always be at the top of the viewport.
 
