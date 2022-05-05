@@ -16,7 +16,7 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 2. ~~I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.~~
 
-3. ~~User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".~~
+3. ~~Within the #header element I can see a nav element with a corresponding id="nav-bar".~~
 
 4. I can see at least three clickable elements inside the nav element, each with the class nav-link.
 

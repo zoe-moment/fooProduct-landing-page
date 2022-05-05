@@ -25,4 +25,13 @@ section {
 
 nav {
   position: sticky;
+  display: flex;
+  flex-direction: row;
 }
+
+.header-img {
+  max-width: 1em;
+  max-height: 1em;
+  align: flex-start
+}
+
