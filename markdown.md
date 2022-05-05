@@ -36,7 +36,7 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 12. ~~When I click the #submit element, the email is submitted to a static page (use this mock URL: <https://www.freecodecamp.com/email-submit>).~~
 
-13. The navbar should always be at the top of the viewport.
+13. ~~The navbar should always be at the top of the viewport.~~
 
 14. My product landing page should have at least one media query.
 

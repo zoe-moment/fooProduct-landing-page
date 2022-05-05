@@ -1,11 +1,26 @@
 body {
+  background-color: #1e0b01;
+  background-color: hsl(21, 93%, 6%);
   background-image: url("img/violin-background.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-repeat: scroll;
+  background-position: center center;
+  background-size: 120%;
 }
 
-main {
-  background-image: url("img/violin-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
+/* MEDIA QUERY - BACKGROUND
+@media only screen (max-device-width: 480px) {
+  body {
+    background-color: #1e0b01;
+    background-color: hsl(21, 93%, 6%);
+  }
+} */
+
+section {
+  background-color: #f5f5f5;
+  background-color: hsla(0, 100%, 100%, 0.85);
+}
+
+nav {
+  position: sticky;
 }
