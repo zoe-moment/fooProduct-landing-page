@@ -40,22 +40,30 @@ body {
 
 /* NAV BAR */
 header {
-  background-color: green;
   font-size: 2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+/*flex parent*/
+#navbar {
+  display: flex;
+  background-color: #f5f5f5;
+  background-color: hsla(0, 100%, 100%, 0.85);
+  max-width: 90%;
+  height: 80px;
+  align-items: right;
+  }
+  
+  .navbar-items {
+  align-items: flex-end;
+  margin-left: auto;
+  }
 
-.navbar{
-  height:150px;
-  }
-  
   .navbar-brand img{
-  height:95px;
-  }
-  
-  .navbar > .container {
-    display: flex;
-    align-items: center;
+  height:3rem;
+  align-items: flex-start;
+  margin-right: 1em;
   }
   
   .navbar-brand {
