@@ -1,3 +1,7 @@
+* {
+  font-size: 1rem;
+}
+
 body {
   background-color: #1e0b01;
   background-color: hsl(21, 93%, 6%);
@@ -19,16 +23,58 @@ body {
 
 
 /* NAV BAR */
-nav {
-  position: sticky;
-  display: flex;
-  flex-direction: row;
+header {
+  background-color: green;
 }
 
-.header-img {
-  max-width: 1em;
-  max-height: auto;
+/*FLEX - PARENT*/
+nav {
+  background-color: blue;
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  padding: 0 1rem;
 }
+
+/*FLEX - CHILD*/
+.nav-logo {
+  max-height: 100%;
+  max-width: auto;
+  justify-content: flex-start;
+  margin-right: 1rem;
+}
+/*FLEX - CHILD*/
+.nav-item {
+  justify-content: flex-end;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+
+
+/*UL - NAV UNORDERED LIST*/
+/*
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+flex1 child*
+.nav-list li {
+  flex-grow: 1;
+  flex-shrink: 1; /*default for flex
+}
+.nav-list a {
+  text-decoration: none;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+}
+*/
+
+
 
 
 
@@ -62,5 +108,5 @@ section .video {
 }
 
 .video div {
-  flex-grow: 1;
+  flex-grow: 0;
 }
