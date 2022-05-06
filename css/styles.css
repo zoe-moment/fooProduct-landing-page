@@ -7,9 +7,10 @@ body {
   background-color: hsl(21, 93%, 6%);
   background-image: url("img/violin-background.jpg");
   background-repeat: no-repeat;
-  background-repeat: scroll;
+  background-size: cover;
   background-position: center center;
-  background-size: 120%;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 /* MEDIA QUERY - BACKGROUND
