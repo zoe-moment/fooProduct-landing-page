@@ -19,6 +19,21 @@ body {
     background-color: #1e0b01;
     background-color: hsl(21, 93%, 6%);
   }
+
+    @media (max-width: 767px) {
+    .navbar > .container {
+      display: block;
+    }
+    .navbar-header {
+      display: flex;
+      align-items: center;
+    }
+    .navbar{
+      height: auto;
+      }
+  }
+
+
 } */
 
 
@@ -26,18 +41,48 @@ body {
 /* NAV BAR */
 header {
   background-color: green;
+  font-size: 2rem;
 }
 
-/*FLEX - PARENT*/
+
+.navbar{
+  height:150px;
+  }
+  
+  .navbar-brand img{
+  height:95px;
+  }
+  
+  .navbar > .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    height: auto !important;
+  }
+  
+  .navbar-toggle {
+    margin-left: auto;
+    order: 2;
+  }
+  
+
+
+
+/*FLEX - PARENT
 nav {
   display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   width: 90%;
   min-height: 2.75rem;
   padding: 0 1rem;
 }
 
-/*FLEX - CHILD*/
+/*FLEX - CHILD
 .nav-logo {
+  background-color: palevioletred;
   max-height: 100%;
   max-width: auto;
   justify-content: flex-start;
@@ -47,14 +92,14 @@ nav {
   max-height: 100%;
 }
 
-/*FLEX - CHILD*/
+/*FLEX - CHILD
 .nav-item {
+  background-color: blue;
   justify-content: flex-end;
   text-decoration: none;
   margin-left: auto;
 }
-
-
+*/
 
 /*UL - NAV UNORDERED LIST*/
 /*
