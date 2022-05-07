@@ -8,17 +8,17 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-
+<div id="screen">
 
     <!--nav bar-->
     <header id="header">
-      <nav id="navbar">
+      <nav id="nav-bar">
         <div class="navbar-brand">
           <img src="img/violin-md.png" id="header-img" alt="company logo"></div>
         <div class="navbar-items">
-          <a href="#" class="nav-item">Home</a>
-          <a href="#" class="nav-item">About</a>
-          <a href="#" class="nav-item">Contact</a>
+          <a href="#" class="nav-link">Home</a>
+          <a href="#example" class="nav-link">Example</a>
+          <a href="#" class="nav-link">Contact</a>
         </div>
         <!-- UNORDERED LIST CLASS NAV LIST
           <ul class="nav-list">
@@ -33,11 +33,16 @@
     </header>
 
 
+    <div class="intro">
+      <p>Be inspired by what you love</p>
+      <p>Play a Violin for the ages</p>
+    </div>
+
     <!--main body of site-->
     <main>
       <section>
         <div class="wrapper">
-        <h1>Header</h1>
+        <h1>About</h1>
           <p>All violins are personally selected by myself as instruments with great tonal qualities that I would be proud to own as my sole violin.</p>
           <p>Each is carefully checked for build construction and condition. Any restoration work is done by my professional luthier partner and instruments are fitted with high quality fittings and usually Evah Pirazzi strings (although this may vary according to what we determine best suits the particular instrument).</p>
           <p>This is backed by a 12 months maintenance free guarantee – that is to say that we will undertake any maintenance  required on your violin within this period free of charge. All that you need to do is bring/ship the violin back to us.</p>
@@ -66,7 +71,9 @@
             <div> 
               <h3>The most amazing violin of all time</h3>
             </div>
-            <iframe width="560" height="315" 
+            <iframe 
+                    id="video"
+                    width="560" height="315" 
             src="https://www.youtube.com/embed/Y_Bj2A7zeMI" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
@@ -90,10 +97,10 @@
           </form>
         </div>
       </section>
-    
     </main>
     <footer>
       <p>Site improved from http://virtuosiviolins.co.uk/</p>
     </footer>
+    </div>
   </body>
 </html>
