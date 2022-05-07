@@ -30,10 +30,38 @@
       href="assets/icons/favicon-16x16.png"
     />
 
-    <title>JabTV Landing Page</title>
+    <title>FCC - Product Landing Page</title>
   </head>
   <body>
-    <!-- Navbar -->
+
+
+<!-- Navbar -->
+    <div class="sticky">
+      <header id="header">
+        <nav id="nav-bar" role="navigation"> <!-- FLEX PARENT -->
+          <div class="navbar-brand" id="menuToggle"><!--Hambuurger menu = menueToggle-->
+  <!-- A fake / hidden checkbox is used as click reciever,
+  so you can use the :checked selector on it.-->
+      
+<!--LOGO IN MENU-->      
+          <img src="assets/images/violin-md.png" id="nav-logo" alt="company logo"></div>
+          <div class="navbar-items">
+            
+<!--HAMBURGER MENU-->
+        <input type="checkbox" />
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+<!--NAVIGATION MENU-->
+            <a href="#" class="nav-link">Home</a>
+            <a href="#example" class="nav-link">Example</a>
+            <a href="#" class="nav-link">Contact</a>
+          </div>
+        </nav>
+      </header>
+  
 
     <!-- Dark/light theme switcher -->
 
@@ -72,52 +100,7 @@
 
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>FCC - Product Landing Page</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
 
-
-
-
-
-
-
-
-  <div class="sticky">
-    <header id="header">
-      <nav id="nav-bar" role="navigation"> <!-- FLEX PARENT -->
-        <div class="navbar-brand" id="menuToggle"><!--Hambuurger menu = menueToggle-->
-<!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-          <img src="img/violin-md.png" id="nav-logo" alt="company logo"></div>
-        <div class="navbar-items">
-          <a href="#" class="nav-link">Home</a>
-          <a href="#example" class="nav-link">Example</a>
-          <a href="#" class="nav-link">Contact</a>
-        </div>
-      </nav>
-    </header>
 
 
 
