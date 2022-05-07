@@ -1,8 +1,9 @@
+/*
 @font-face {
-  font-family: My+Soul;
-  src: url(https://fonts.google.com/specimen/My+Soul);
+  font-family:"Aguafina Script" ;
+  src: url(https:///fonts.googleapis.com/css?family=Aguafina+Script);
 }
-
+*/
 
 * {
   box-sizing: border-box;
@@ -29,33 +30,16 @@ header {
   top: 0rem;
 }
 
-/* MEDIA QUERY - BACKGROUND
-@media only screen (max-device-width: 480px) {
-  body {
-    background-color: #1e0b01;
-    background-color: hsl(21, 94%, 6%);
-  }
-}
-  
-  @media (max-width: 767px) {
-    header > #header {
-    display: block;
-    }
-    nav > #nav-bar {
-      display: flex;
-      align-items: center;
-    }
-    .navbar-brand {
-      height: auto;
-      }
-    .navbar-items {
-      height: auto;
-    }
-  } 
-*/
+
+
+
+
+
+
+
+
 
 /* NAV BAR */
-
 /*flex parent*/
 #nav-bar {
   display: flex;
@@ -69,7 +53,7 @@ header {
   margin-left: auto;
   padding: 1em;
   margin-top: 1em;
-  color: wheat;;
+  color: wheat;
   }
   
   .navbar-items {
@@ -131,15 +115,96 @@ header {
   margin-left: auto;
   max-width: 50%;
   margin-top: 1rem;
-  font-size: 2em;
-
-}
-.intro p {
   color: #f5f5f5 ;
   color: hsla(0, 0%, 100%, 0.92);
+  font-size: 2em;
+  font-family: 'Aguafina Script'; font-size: 24px; font-weight: 700; 
+}
+
+.intro h1 {
   max-width: 90%;
   max-height: fit-content;
 }
+
+
+/* MAIN BODY OF SITE*/
+.wrapper {
+  background-color: #f5f5f5;
+  background-color: hsla(0, 100%, 100%, 0.85);
+  max-width: 90%;
+  padding: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+
+}
+
+div .video {
+  display: flex;
+  flex-direction: row;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  max-width: 40rem;
+}
+
+.video iframe {
+  flex-grow: 2;
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.video div {
+  flex-grow: 0;
+}
+
+
+
+
+/* FONT PREFRENCES */
+
+/*
+p { font-family: Aguafina Script; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Aguafina Script; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Aguafina Script; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 13px; }
+*/
+
+
+
+
+
+
+
+
+/* MEDIA QUERY - BACKGROUND
+@media only screen (max-device-width: 480px) {
+  body {
+    background-color: #1e0b01;
+    background-color: hsl(21, 94%, 6%);
+  }
+}
+  
+  @media (max-width: 767px) {
+    header > #header {
+    display: block;
+    }
+    nav > #nav-bar {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand {
+      height: auto;
+      }
+    .navbar-items {
+      height: auto;
+    }
+  } 
+*/
+
+
+
 
 /*FLEX - PARENT
 nav {
@@ -194,39 +259,3 @@ flex1 child*
 }
 */
 
-
-
-
-
-/* MAIN BODY OF SITE*/
-.wrapper {
-  background-color: #f5f5f5;
-  background-color: hsla(0, 100%, 100%, 0.85);
-  max-width: 90%;
-  padding: 1em;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-
-}
-
-div .video {
-  display: flex;
-  flex-direction: row;
-}
-
-.video {
-  display: flex;
-  justify-content: center;
-  max-width: 40rem;
-}
-
-.video iframe {
-  flex-grow: 2;
-  width: 100%    !important;
-  height: auto   !important;
-}
-
-.video div {
-  flex-grow: 0;
-}
