@@ -13,6 +13,13 @@ body {
   height: 100vh;
 }
 
+header {
+  position: sticky;
+  top: 1rem;
+}
+
+
+
 /* MEDIA QUERY - BACKGROUND
 @media only screen (max-device-width: 480px) {
   body {
@@ -39,11 +46,6 @@ body {
 
 
 /* NAV BAR */
-header {
-  font-size: 2rem;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 /*flex parent*/
 #navbar {
@@ -53,17 +55,28 @@ header {
   max-width: 90%;
   height: 80px;
   align-items: right;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1em;
+  margin-top: 1em;
   }
   
   .navbar-items {
   align-items: flex-end;
   margin-left: auto;
+  font-size: 2rem;
   }
 
   .navbar-brand img{
   height:3rem;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   margin-right: 1em;
+  }
+
+  #header-img {
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .navbar-brand {
@@ -143,7 +156,8 @@ flex1 child*
   padding: 1em;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 1em;
+  margin-top: 20px;
+
 }
 
 div .video {
