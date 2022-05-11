@@ -22,7 +22,7 @@
   <!-- Navbar -->
   <header class="sticky" id="header">
     <div class="nav__logo" id="nav-logo">
-      <img src="assets/images/violin-md.png" alt="Company logo">
+      <img src="assets/images/violin-md.png" id="nav-logo--img" alt="Company logo">
     </div>
     <button class="nav-toggle btn" aria-label="toggle navigation">
       <span class="hamburger"></span>
@@ -43,17 +43,15 @@
   <!-- Introduction -->
   <section class="intro">
     <h1 class="section__title section__title--intro">
-      Be Inspired<strong>By What You Love</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Virtuosa Violins</p>
+      <span>Be Inspired</span><span>By what you love</span></h1>
+    <p class="section__subtitle section__subtitle--intro"><strong>Virtuosa Violins</strong></p>
 
     <iframe 
       id="video" width="560" height="315" src="https://www.youtube.com/embed/Y_Bj2A7zeMI"
       title="YouTube video player" 
-      class=intro__vid frameborder="0"
+      class="intro__vid" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
-
   </section>
 
 
@@ -67,7 +65,7 @@
     <p>Each is carefully checked for build construction and condition. Any restoration work is done by my
       professional luthier partner and instruments are fitted with high quality fittings and usually Evah Pirazzi
       strings (although this may vary according to what we determine best suits the particular instrument).</p>
-    <img src="assets/images/violin-background.jpg" alt="">
+    <img src="assets/images/violin-background.jpg" class="body--img" alt="a picture of a violin">
     <p>This is backed by a 12 months maintenance free guarantee – that is to say that we will undertake any
       maintenance required on your violin within this period free of charge. All that you need to do is bring/ship
       the violin back to us.</p>
@@ -85,6 +83,7 @@
       give you the full purchase price paid for it, provided that it has been well looked after.</p>
     <p>I am here to help as much for you post-sale as I am before.</p>
   </div>
+
 
 
 
@@ -125,29 +124,30 @@
 
 
 
-
-
-
-  <!-- About Me -->
+  <!-- About -->
   <section class="about-me" id="about">
-    <h2 class="section__title section__title--about">Who is Virtuosa Violins?</h2>
-    <p class="section__subtitle section__subtitle--about">200 years in the making</p>
-    <img src="/assets/images/6ViolinAntoniusStradivarius1897.jpg" class="about-me__img" alt="Staffordshire">
+    <h2 class="section__title section__title--about">Virtuosa Violins</h2>
+    <p class="section__subtitle section__subtitle--about">Follow your passion</p>
+    <img src="/assets/images/6ViolinAntoniusStradivarius1897.jpg" class="about-me__img body--img" alt="Staffordshire">
   </section>
 
+    <section class="portfolio-item-individual">
+      <div class="about-me__body">
+        <p>
+          Virtuosi Violins is the website of violin collector, musician, enthusiast and writer.</p>
+        <p>
+          I play violin on a non-professional basis and has developed a love of violins and all things 
+          violin over many years. Through my website I now seek to share my knowledge and help fellow enthusiasts, 
+          at all levels of their violin journey finding the violin that is a perfect match for them and assist 
+          them in any way possible. I am always available to assist and answer questions on any aspect of the violin world.</p>
+        <p>
+          I have written many articles on violins, including a blog, and am currently 
+          writing a book on the great violinmakers of Cremona.</p>
+      </div>
+    </section>
 
-    <div class="about-me__body">
-      <p>
-        Virtuosi Violins is the website of violin collector, musician, enthusiast and writer.</p>
-      <p>
-        I play violin on a non-professional basis and has developed a love of violins and all things 
-        violin over many years. Through my website I now seek to share my knowledge and help fellow enthusiasts, 
-        at all levels of their violin journey finding the violin that is a perfect match for them and assist 
-        them in any way possible. I am always available to assist and answer questions on any aspect of the violin world.</p>
-      <p>
-        I have written many articles on violins, including a blog, and am currently 
-        writing a book on the great violinmakers of Cremona.</p>
-    </div>
+
+
 
 
   <!-- EMAIL SIGN UP FORM -- LETS KEEP IN TOUCH-->
@@ -163,6 +163,9 @@
       </form>
     </div>
   </section>
+
+
+
 
 
   <!-- Footer -->
@@ -193,9 +196,10 @@
     </ul>
   </footer>
 
+
+
+
+
   <script src="js/index.js"></script>
-
-
 </body>
-
 </html>
