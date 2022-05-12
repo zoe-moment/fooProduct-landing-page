@@ -1,8 +1,6 @@
-# Application Name
+# Assignment **Build a Product Landing Page** from FreeCodeCamp.org
 
-Assisgnment from FCC - May 5th 2022
-
-By Zoe Sullivan
+By Zoe Sullivan - May 12th 2022
 
 ## Description
 
@@ -10,7 +8,15 @@ Assignment **Build a Product Landing Page** from FreeCodeCamp.org
 
 <https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page>
 
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+## Requirements
+
+You can build your project by using this CodePen template and clicking Save to create your own pen.
+
+Or you can use this CDN link to run the tests in any environment you like: <https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js>
+
+Once you're done, submit the URL to your working project with all its tests passing.
+
+### Fulfill the below user stories and get all of the tests to pass
 
 1. My product landing page should have a header element with a corresponding id="header".
 
@@ -42,18 +48,20 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 15. My product landing page should utilize CSS flexbox at least once.
 
-## Requirements
-
-You can build your project by using this CodePen template and clicking Save to create your own pen. Or you can use this CDN link to run the tests in any environment you like: <https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js>
-
-Once you're done, submit the URL to your working project with all its tests passing.
-
 ## Known Bugs
 
-- Design needed.
+- Complete FCC requirements and submit
 
-## Technologies Used
+## Technologies/Resources Used
 
-VS Code
+- VS Code
 
-HTML/CSS
+- HTML/CSS
+
+- <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+
+- <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>
+
+- <https://gist.github.com/cferdinandi/ef665330286fd5d7127d>
+
+- <https://www.kevinpowell.co/courses/>
