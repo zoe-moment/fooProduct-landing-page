@@ -1,6 +1,7 @@
 # Assignment **Build a Product Landing Page** from FreeCodeCamp.org
 
-By Zoe Sullivan - May 12th 2022
+Zoe Sullivan
+May 12th 2022
 
 <br>
 
