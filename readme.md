@@ -1,31 +1,12 @@
 # Assignment **Build a Product Landing Page** from FreeCodeCamp.org
 
 Zoe Sullivan
-May 12th 2022
 
-<br>
 
 ## Description
 
 Assignment **[Build a Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)** from FreeCodeCamp.org
 
-### Competed assignment
-
-FreeCodeCamp Profile <https://www.freecodecamp.org/zoe-moment>
-
-GitHub Repo <https://github.com/zoe-moment/product-landing-page-FCC>
-
-<br>
-
-## Requirements
-
-You can build your project by using this CodePen template and clicking Save to create your own pen.
-
-Or you can use this CDN link to run the tests in any environment you like: <https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js>
-
-Once you're done, submit the URL to your working project with all its tests passing.
-
-<br>
 
 ### Fulfill the below user stories and get all of the tests to pass
 
@@ -61,11 +42,6 @@ Once you're done, submit the URL to your working project with all its tests pass
 
 <br>
 
-## Known Bugs
-
-- No longer able to submit project to FCC via CodePen.io. Project submitted without JS on <https://www.freecodecamp.org/zoe-moment>
-
-<br>
 
 ## Technologies/Resources Used
 
